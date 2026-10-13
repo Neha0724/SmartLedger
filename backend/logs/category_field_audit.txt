@@ -1,0 +1,648 @@
+
+=================================================================
+CATEGORY: Contra | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Source Account
+  - Destination Account
+  - Contra ID
+  - Transaction Date
+  - Transfer Amount
+  - Transaction Ref
+  - Transfer Purpose
+  - Bank IFSC Code
+Example values:
+  Currency Code: INR
+  Source Account: Axis Business; HDFC Main Account
+  Destination Account: ICICI Current; Axis Business
+  Contra ID: CTR-318674; CTR-982399
+  Transaction Date: 09-11-2024; 21-01-2026
+  Transfer Amount: 536745.93; 392192.26
+  Transaction Ref: TRN333317; TRN809045
+  Transfer Purpose: Internal Fund Repositioning
+  Bank IFSC Code: HDFC0001234
+
+=================================================================
+CATEGORY: Delivery Note | RECORDS: 5
+=================================================================
+Fields present:
+  - Supplier
+  - Currency Code
+  - Customer
+  - Delivery Challan No
+  - Dispatch Date
+  - Item Dispatched
+  - Quantity Shipped
+  - SO Reference
+  - Delivery Address
+  - Courier/Transport
+  - Expected Arrival
+Example values:
+  Supplier: International Commerce Ltd; Wholesale Distributors
+  Currency Code: INR
+  Customer: Retail Networks Inc; Consumer Goods Co
+  Delivery Challan No: DC5798949; DC1520472
+  Dispatch Date: 03-08-2026; 03-04-2026
+  Item Dispatched: Metal Alloys; Chemicals
+  Quantity Shipped: 550.0; 113.0
+  SO Reference: SO1769404; SO1769930
+  Delivery Address: Branch 1; Distribution Center
+  Courier/Transport: Fedex; Delhivery
+  Expected Arrival: 04-08-2026; 12-04-2026
+
+=================================================================
+CATEGORY: Expense | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Approved By
+  - Expense Claim No
+  - Claim Date
+  - Expense Type
+  - Amount Claimed
+  - Vendor/Provider
+  - Description
+  - Department
+  - Status
+Example values:
+  Currency Code: INR
+  Approved By: Head of Logistics; Head of HR
+  Expense Claim No: EXP1249562; EXP9553927
+  Claim Date: 04-09-2026; 14-10-2025
+  Expense Type: Office Supplies; Meals & Entertainment
+  Amount Claimed: 48745.58; 18325.76
+  Vendor/Provider: Trade Import/Export; Digital Solutions Corp
+  Description: Conference Registration; Electricity Bill
+  Department: HR; Procurement
+  Status: Approved; Rejected
+
+=================================================================
+CATEGORY: Export | RECORDS: 5
+=================================================================
+Fields present:
+  - Export Invoice No
+  - Destination Country
+  - Exporter
+  - Buyer Invoice
+  - Export Item
+  - Units Exported
+  - Free on Board Value
+  - Freight Charges
+  - Export Incentive
+  - Payment Currency
+Example values:
+  Export Invoice No: EXP9616045; EXP5022051
+  Destination Country: Japan; United Kingdom
+  Exporter: Heavy Machinery Inc; International Commerce Ltd
+  Buyer Invoice: BYR7336581; BYR4970847
+  Export Item: Steel Plates; Electronic Devices
+  Units Exported: 91.0; 72.0
+  Free on Board Value: 220637.8; 453489.59
+  Freight Charges: 16173.79; 14084.97
+  Export Incentive: Applicable; Under Review
+  Payment Currency: GBP; USD
+
+=================================================================
+CATEGORY: Import | RECORDS: 5
+=================================================================
+Fields present:
+  - Import Bill No
+  - Originating Country
+  - Importer
+  - Consignment Invoice
+  - Import Item
+  - Units Imported
+  - Cost Insurance Freight
+  - Customs Duty
+  - Import GST
+  - Original Currency
+Example values:
+  Import Bill No: IBL5259340; IBL7276595
+  Originating Country: Singapore; Germany
+  Importer: Logistics Provider; Assembly Line Ltd
+  Consignment Invoice: INV3445384; INV5240720
+  Import Item: Tools & Instruments; Chemicals
+  Units Imported: 48.0; 86.0
+  Cost Insurance Freight: 275592.76; 87190.88
+  Customs Duty: 12354.33; 40787.96
+  Import GST: 17999.59; 47562.09
+  Original Currency: SGD; USD
+
+=================================================================
+CATEGORY: Job Work In Order | RECORDS: 5
+=================================================================
+Fields present:
+  - Terms
+  - Currency Code
+  - Processor
+  - Principal
+  - Order Date
+  - Material
+  - Quantity
+  - Completion Due
+  - JWIO Ref
+  - Processing Rate
+Example values:
+  Terms: Delivery Post Processing; Part Payment on Order
+  Currency Code: INR
+  Processor: International Commerce Ltd; Trade Import/Export
+  Principal: Corporate Services Ltd; Assembly Line Ltd
+  Order Date: 15-05-2026; 09-07-2026
+  Material: Electrical Components; Electronic Devices
+  Quantity: 752.0; 541.0
+  Completion Due: 19-06-2026; 11-09-2026
+  JWIO Ref: JWIO8133638; JWIO6551384
+  Processing Rate: 3576.77; 353.94
+
+=================================================================
+CATEGORY: Job Work Out Order | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - JWOO Ref
+  - Processor
+  - Principal
+  - Order Date
+  - Material
+  - Quantity
+  - Completion Due
+  - Service Charge
+  - Agreement Terms
+Example values:
+  Currency Code: INR
+  JWOO Ref: JWOO3540988; JWOO4353681
+  Processor: Logistics Provider; Retail Networks Inc
+  Principal: Wholesale Distributors; Premier Industries Ltd
+  Order Date: 27-07-2025; 09-05-2026
+  Material: Semiconductors; Metal Alloys
+  Quantity: 947.0; 22.0
+  Completion Due: 10-09-2025; 28-07-2026
+  Service Charge: 279.96; 3694.44
+  Agreement Terms: Percentage Based; Fixed Service Rate
+
+=================================================================
+CATEGORY: Journal | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Debit Side
+  - Credit Side
+  - Journal ID
+  - Entry Date
+  - Amount
+  - Journal Type
+  - Supporting Doc
+  - Narration
+Example values:
+  Currency Code: INR
+  Debit Side: Prepaid Insurance; Accounts Receivable
+  Credit Side: Accounts Payable; Bank Account
+  Journal ID: JNL-455940; JNL-240918
+  Entry Date: 21-04-2026; 05-01-2026
+  Amount: 51504.69; 64780.13
+  Journal Type: Adjusting Entry; Accrual
+  Supporting Doc: REF-570967; REF-979973
+  Narration: Accrual recording; Month-end adjustment
+
+=================================================================
+CATEGORY: Material In | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Company
+  - Material Description
+  - Storage
+  - Purpose
+  - Reference PO
+  - Inward Job Work No
+  - Subcontractor
+  - Quantity Sent
+  - Date of Dispatch
+Example values:
+  Currency Code: INR
+  Company: Assembly Line Ltd; Logistics Provider
+  Material Description: Industrial Lubricants; Chemicals
+  Storage: Cold Storage; Distribution Center
+  Purpose: Subcontracting Job
+  Reference PO: JO9539736; JO9198324
+  Inward Job Work No: MIW3088480; MIW4583479
+  Subcontractor: Wholesale Distributors; Premier Industries Ltd
+  Quantity Sent: 237.0; 157.0
+  Date of Dispatch: 10-04-2026; 03-12-2024
+
+=================================================================
+CATEGORY: Material Out | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Company
+  - Quantity Received
+  - Outward Job Work No
+  - Contractor
+  - Material Description
+  - Date of Receipt
+  - Storage
+  - Purpose
+  - Reference PO
+Example values:
+  Currency Code: INR
+  Company: International Commerce Ltd; Wholesale Distributors
+  Quantity Received: 231.0; 11.0
+  Outward Job Work No: MOW2690516; MOW3755694
+  Contractor: Consumer Goods Co; Assembly Line Ltd
+  Material Description: Chemicals; Industrial Lubricants
+  Date of Receipt: 01-09-2026; 30-03-2025
+  Storage: Distribution Center; Cold Storage
+  Purpose: Subcontracting Job
+  Reference PO: JO6307660; JO9023319
+
+=================================================================
+CATEGORY: Payment | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Payer Organization
+  - Payee Organization
+  - Payment ID
+  - Payment Date
+  - Payment Amount
+  - Payment Type
+  - Against Invoice
+  - Transaction Details
+  - Reference Number
+Example values:
+  Currency Code: INR
+  Payer Organization: Retail Networks Inc; Corporate Services Ltd
+  Payee Organization: Digital Solutions Corp; Heavy Machinery Inc
+  Payment ID: PMT-962668; PMT-520919
+  Payment Date: 19-10-2024; 10-06-2025
+  Payment Amount: 50596.27; 396202.3
+  Payment Type: Check/Cheque; NEFT
+  Against Invoice: SAL-803208; SAL-169270
+  Transaction Details: Installment; Partial Payment
+  Reference Number: REF633795; REF363513
+
+=================================================================
+CATEGORY: Physical Stock | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Item Name
+  - Unit Cost
+  - Stock Count ID
+  - Book Quantity
+  - Counted Quantity
+  - Discrepancy
+  - Storage Area
+  - Count Date
+  - Counted By
+  - Variance Status
+Example values:
+  Currency Code: INR
+  Item Name: Electrical Components; Industrial Lubricants
+  Unit Cost: 7051.99; 5617.76
+  Stock Count ID: SC9513880; SC7995518
+  Book Quantity: 616.0; 7222.0
+  Counted Quantity: 9691.0; 9470.0
+  Discrepancy: 1333.0; -1314.0
+  Storage Area: Distribution Center; Regional Hub
+  Count Date: 10-08-2025; 03-06-2026
+  Counted By: Storekeeper 751; Storekeeper 326
+  Variance Status: Accepted; Pending Approval
+
+=================================================================
+CATEGORY: Purchase | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Vendor Name
+  - Company
+  - Document Number
+  - Document Date
+  - Product
+  - Base Amount
+  - Tax Amount
+  - Units
+  - Other Charges
+  - Transport Cost
+  - Mode of Payment
+  - PO Ref
+Example values:
+  Currency Code: INR
+  Vendor Name: Premier Industries Ltd; Trade Import/Export
+  Company: Corporate Services Ltd; Consumer Goods Co
+  Document Number: PUR-734286; PUR-728557
+  Document Date: 05-06-2026; 22-08-2025
+  Product: Steel Plates; Chemicals
+  Base Amount: 73652.21; 41022.54
+  Tax Amount: 2362.25; 11518.22
+  Units: 133.0; 122.0
+  Other Charges: 1453.79; 1255.76
+  Transport Cost: 1710.87; 1457.67
+  Mode of Payment: Demand Draft; Standing Order
+  PO Ref: PO21775; PO17643
+
+=================================================================
+CATEGORY: Purchase Order | RECORDS: 5
+=================================================================
+Fields present:
+  - PO Number
+  - Supplier
+  - Ordering Company
+  - PO Date
+  - Item
+  - Quantity Required
+  - Unit Rate
+  - Total Value
+  - Promised Delivery
+  - Terms
+  - Currency Code
+Example values:
+  PO Number: PO9634122; PO4745185
+  Supplier: Digital Solutions Corp; International Commerce Ltd
+  Ordering Company: Assembly Line Ltd; Enterprise Systems Ltd
+  PO Date: 23-04-2025; 20-08-2025
+  Item: Textiles; Tools & Instruments
+  Quantity Required: 815.0; 780.0
+  Unit Rate: 200.55; 5718.06
+  Total Value: 117945.26; 142263.27
+  Promised Delivery: 22-06-2025; 28-08-2025
+  Terms: COD; Net 15
+  Currency Code: INR
+
+=================================================================
+CATEGORY: Purchase Return / Debit Note | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Vendor Name
+  - Company
+  - Document Number
+  - Document Date
+  - Product
+  - Units Returned
+  - Reason for Return
+  - Base Amount
+  - Tax Amount
+  - Original Doc Ref
+Example values:
+  Currency Code: INR
+  Vendor Name: Heavy Machinery Inc; International Commerce Ltd
+  Company: Corporate Services Ltd; Consumer Goods Co
+  Document Number: DBN-417445; DBN-170971
+  Document Date: 08-01-2026; 09-03-2025
+  Product: Metal Alloys; Industrial Lubricants
+  Units Returned: -117.0; -80.0
+  Reason for Return: Manufacturing Defect; Contaminated
+  Base Amount: 37306.95; 19242.39
+  Tax Amount: 2151.22; 6115.87
+  Original Doc Ref: PUR-576854; PUR-969781
+
+=================================================================
+CATEGORY: Receipt | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Receipt Date
+  - Against Invoice
+  - Receiving Organization
+  - Paying Organization
+  - Receipt ID
+  - Received Amount
+  - Payment Method
+  - Receipt Nature
+  - Bank Details
+Example values:
+  Currency Code: INR
+  Receipt Date: 10-07-2026; 18-01-2026
+  Against Invoice: PUR-863975; PUR-253257
+  Receiving Organization: Digital Solutions Corp; Premier Industries Ltd
+  Paying Organization: Logistics Provider; Retail Networks Inc
+  Receipt ID: RCP-867144; RCP-194682
+  Received Amount: 407297.31; 268843.68
+  Payment Method: Standing Order; Check/Cheque
+  Receipt Nature: Partial Adjustment; Full Adjustment
+  Bank Details: Cash; Account 28865009
+
+=================================================================
+CATEGORY: Receipt Note | RECORDS: 5
+=================================================================
+Fields present:
+  - Supplier
+  - Currency Code
+  - GRN Number
+  - Receiving Company
+  - Receipt Date
+  - Item Received
+  - Quantity Received
+  - Quality Status
+  - PO Reference
+  - Storage Location
+  - Inspected By
+Example values:
+  Supplier: Premier Industries Ltd; Trade Import/Export
+  Currency Code: INR
+  GRN Number: GRN9793486; GRN5316801
+  Receiving Company: Assembly Line Ltd; Enterprise Systems Ltd
+  Receipt Date: 04-12-2025; 16-01-2025
+  Item Received: Metal Alloys; Steel Plates
+  Quantity Received: 371.0; 953.0
+  Quality Status: Minor Defects; Partially Damaged
+  PO Reference: PO4313144; PO3877570
+  Storage Location: Distribution Center; Cold Storage
+  Inspected By: Inspector 488; Inspector 867
+
+=================================================================
+CATEGORY: Rejection In | RECORDS: 5
+=================================================================
+Fields present:
+  - Supplier
+  - Currency Code
+  - Rejection Note No
+  - Rejection Date
+  - Item Rejected
+  - Quantity Rejected
+  - Rejection Reason
+  - Receiving Company
+  - GRN Reference
+  - Approved By
+Example values:
+  Supplier: Premier Industries Ltd; International Commerce Ltd
+  Currency Code: INR
+  Rejection Note No: RJN-IN-516405; RJN-IN-123983
+  Rejection Date: 16-11-2025; 31-10-2025
+  Item Rejected: Chemicals; Industrial Lubricants
+  Quantity Rejected: 141.0; 14.0
+  Rejection Reason: Missing Parts; Expired
+  Receiving Company: Corporate Services Ltd; Logistics Provider
+  GRN Reference: GRN2009152; GRN5191313
+  Approved By: Manager 110; Manager 326
+
+=================================================================
+CATEGORY: Rejection Out | RECORDS: 5
+=================================================================
+Fields present:
+  - Supplier
+  - Currency Code
+  - Rejection Note No
+  - Customer
+  - Rejection Date
+  - Item Rejected
+  - Quantity Rejected
+  - Rejection Reason
+  - DN Reference
+  - Authorized By
+Example values:
+  Supplier: Trade Import/Export; Premier Industries Ltd
+  Currency Code: INR
+  Rejection Note No: RJN-OUT-799928; RJN-OUT-785500
+  Customer: Corporate Services Ltd; Retail Networks Inc
+  Rejection Date: 25-03-2026; 04-02-2025
+  Item Rejected: Metal Alloys; Tools & Instruments
+  Quantity Rejected: 498.0; 296.0
+  Rejection Reason: Specification Mismatch; Buyer Initiated Return
+  DN Reference: DC7129709; DC2259558
+  Authorized By: Director 817; Director 386
+
+=================================================================
+CATEGORY: Salary / Payroll | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Payment Date
+  - Employee Code
+  - Employee Full Name
+  - Payroll Period
+  - Gross Salary
+  - Dearness Allowance
+  - Other Benefits
+  - Professional Tax
+  - Income Tax Deduction
+  - Net Payable
+Example values:
+  Currency Code: INR
+  Payment Date: 07-11-2025; 11-01-2025
+  Employee Code: EMP70238; EMP72232
+  Employee Full Name: Mr./Ms. Staff 7281; Mr./Ms. Staff 1088
+  Payroll Period: November-2025; January-2025
+  Gross Salary: 70390.2; 52768.75
+  Dearness Allowance: 3509.14; 12470.32
+  Other Benefits: 7736.73; 9260.38
+  Professional Tax: 1320.8; 1225.37
+  Income Tax Deduction: 2014.18; 3839.53
+  Net Payable: 242084.55; 191250.85
+
+=================================================================
+CATEGORY: Sales | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Vendor Name
+  - Company
+  - Document Number
+  - Document Date
+  - Product
+  - Base Amount
+  - Tax Amount
+  - Units
+  - Other Charges
+  - Transport Cost
+  - Mode of Payment
+  - Delivery Ref
+Example values:
+  Currency Code: INR
+  Vendor Name: International Commerce Ltd; Heavy Machinery Inc
+  Company: Corporate Services Ltd; Consumer Goods Co
+  Document Number: SAL-252373; SAL-841936
+  Document Date: 06-02-2025; 04-07-2025
+  Product: Industrial Lubricants; Semiconductors
+  Base Amount: 23092.23; 99819.46
+  Tax Amount: 7058.09; 11914.85
+  Units: 408.0; 176.0
+  Other Charges: 4181.36; 2400.49
+  Transport Cost: 2175.4; 1735.68
+  Mode of Payment: Mobile Payment; Standing Order
+  Delivery Ref: DN10103; DN13759
+
+=================================================================
+CATEGORY: Sales Order | RECORDS: 5
+=================================================================
+Fields present:
+  - Item
+  - Unit Rate
+  - Total Value
+  - Promised Delivery
+  - Currency Code
+  - Customer
+  - SO Number
+  - Selling Company
+  - SO Date
+  - Quantity Ordered
+  - Payment Terms
+Example values:
+  Item: Textiles; Electrical Components
+  Unit Rate: 8311.96; 5742.2
+  Total Value: 185302.94; 167590.36
+  Promised Delivery: 20-09-2026; 31-08-2025
+  Currency Code: INR
+  Customer: Corporate Services Ltd; Logistics Provider
+  SO Number: SO6975488; SO6055910
+  Selling Company: Trade Import/Export; Heavy Machinery Inc
+  SO Date: 10-09-2026; 22-08-2025
+  Quantity Ordered: 756.0; 313.0
+  Payment Terms: COD; Advance
+
+=================================================================
+CATEGORY: Sales Return / Credit Note | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Vendor Name
+  - Company
+  - Document Number
+  - Document Date
+  - Product
+  - Units Returned
+  - Reason for Return
+  - Base Amount
+  - Tax Amount
+  - Original Invoice Ref
+Example values:
+  Currency Code: INR
+  Vendor Name: Wholesale Distributors; Trade Import/Export
+  Company: Assembly Line Ltd; Enterprise Systems Ltd
+  Document Number: CRN-879850; CRN-898377
+  Document Date: 27-09-2025; 16-11-2025
+  Product: Semiconductors; Steel Plates
+  Units Returned: -49.0; -181.0
+  Reason for Return: Expiry Issue; Customer Complaint
+  Base Amount: 47189.6; 38850.41
+  Tax Amount: 1565.65; 741.09
+  Original Invoice Ref: SAL-114657; SAL-541910
+
+=================================================================
+CATEGORY: Stock Journal | RECORDS: 5
+=================================================================
+Fields present:
+  - Currency Code
+  - Stock Adj ID
+  - Item Name
+  - Adjustment Qty
+  - Storage Facility
+  - Adjustment Date
+  - Reason
+  - Unit Cost
+  - Adjusted By
+  - Notes
+Example values:
+  Currency Code: INR
+  Stock Adj ID: SA6990153; SA6307841
+  Item Name: Steel Plates; Tools & Instruments
+  Adjustment Qty: 239.0; -478.0
+  Storage Facility: Branch Warehouse; Cold Storage
+  Adjustment Date: 24-08-2025; 07-12-2025
+  Reason: Physical Count Variance; Shrinkage Loss
+  Unit Cost: 2063.29; 1222.6
+  Adjusted By: Supervisor 631; Supervisor 743
+  Notes: Batch 4452; Batch 6163

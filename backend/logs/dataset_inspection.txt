@@ -1,0 +1,742 @@
+
+======================================================================
+DATASET 1: VOUCHER TEST CASES
+======================================================================
+
+Shape: 120 rows x 169 columns
+Duplicate rows: 0
+
+Columns:
+  - PO Number
+  - Supplier
+  - Ordering Company
+  - PO Date
+  - Item
+  - Quantity Required
+  - Unit Rate
+  - Total Value
+  - Promised Delivery
+  - Terms
+  - Currency Code
+  - Rejection Note No
+  - Customer
+  - Rejection Date
+  - Item Rejected
+  - Quantity Rejected
+  - Rejection Reason
+  - DN Reference
+  - Authorized By
+  - Vendor Name
+  - Company
+  - Document Number
+  - Document Date
+  - Product
+  - Units Returned
+  - Reason for Return
+  - Base Amount
+  - Tax Amount
+  - Original Doc Ref
+  - Units
+  - Other Charges
+  - Transport Cost
+  - Mode of Payment
+  - Delivery Ref
+  - GRN Number
+  - Receiving Company
+  - Receipt Date
+  - Item Received
+  - Quantity Received
+  - Quality Status
+  - PO Reference
+  - Storage Location
+  - Inspected By
+  - Outward Job Work No
+  - Contractor
+  - Material Description
+  - Date of Receipt
+  - Storage
+  - Purpose
+  - Reference PO
+  - Original Invoice Ref
+  - Source Account
+  - Destination Account
+  - Contra ID
+  - Transaction Date
+  - Transfer Amount
+  - Transaction Ref
+  - Transfer Purpose
+  - Bank IFSC Code
+  - Payer Organization
+  - Payee Organization
+  - Payment ID
+  - Payment Date
+  - Payment Amount
+  - Payment Type
+  - Against Invoice
+  - Transaction Details
+  - Reference Number
+  - Employee Code
+  - Employee Full Name
+  - Payroll Period
+  - Gross Salary
+  - Dearness Allowance
+  - Other Benefits
+  - Professional Tax
+  - Income Tax Deduction
+  - Net Payable
+  - PO Ref
+  - Export Invoice No
+  - Destination Country
+  - Exporter
+  - Buyer Invoice
+  - Export Item
+  - Units Exported
+  - Free on Board Value
+  - Freight Charges
+  - Export Incentive
+  - Payment Currency
+  - JWOO Ref
+  - Processor
+  - Principal
+  - Order Date
+  - Material
+  - Quantity
+  - Completion Due
+  - Service Charge
+  - Agreement Terms
+  - Delivery Challan No
+  - Dispatch Date
+  - Item Dispatched
+  - Quantity Shipped
+  - SO Reference
+  - Delivery Address
+  - Courier/Transport
+  - Expected Arrival
+  - Import Bill No
+  - Originating Country
+  - Importer
+  - Consignment Invoice
+  - Import Item
+  - Units Imported
+  - Cost Insurance Freight
+  - Customs Duty
+  - Import GST
+  - Original Currency
+  - GRN Reference
+  - Approved By
+  - Debit Side
+  - Credit Side
+  - Journal ID
+  - Entry Date
+  - Amount
+  - Journal Type
+  - Supporting Doc
+  - Narration
+  - Expense Claim No
+  - Claim Date
+  - Expense Type
+  - Amount Claimed
+  - Vendor/Provider
+  - Description
+  - Department
+  - Status
+  - Stock Adj ID
+  - Item Name
+  - Adjustment Qty
+  - Storage Facility
+  - Adjustment Date
+  - Reason
+  - Unit Cost
+  - Adjusted By
+  - Notes
+  - Stock Count ID
+  - Book Quantity
+  - Counted Quantity
+  - Discrepancy
+  - Storage Area
+  - Count Date
+  - Counted By
+  - Variance Status
+  - Receiving Organization
+  - Paying Organization
+  - Receipt ID
+  - Received Amount
+  - Payment Method
+  - Receipt Nature
+  - Bank Details
+  - JWIO Ref
+  - Processing Rate
+  - Inward Job Work No
+  - Subcontractor
+  - Quantity Sent
+  - Date of Dispatch
+  - SO Number
+  - Selling Company
+  - SO Date
+  - Quantity Ordered
+  - Payment Terms
+  - Voucher Category
+
+Missing values (top 20):
+PO Ref                 118
+Ordering Company       115
+PO Date                115
+Quantity Required      115
+PO Reference           115
+Item Received          115
+Delivery Ref           115
+DN Reference           115
+PO Number              115
+Quality Status         115
+GRN Number             115
+Original Doc Ref       115
+Professional Tax       115
+Net Payable            115
+Export Invoice No      115
+Payroll Period         115
+Dearness Allowance     115
+Transaction Details    115
+Payment Type           115
+Payment Amount         115
+
+Voucher Category counts:
+Voucher Category
+Purchase Order                  5
+Rejection Out                   5
+Purchase Return / Debit Note    5
+Sales                           5
+Receipt Note                    5
+Material Out                    5
+Sales Return / Credit Note      5
+Contra                          5
+Payment                         5
+Salary / Payroll                5
+Purchase                        5
+Export                          5
+Job Work Out Order              5
+Delivery Note                   5
+Import                          5
+Rejection In                    5
+Journal                         5
+Expense                         5
+Stock Journal                   5
+Physical Stock                  5
+Receipt                         5
+Job Work In Order               5
+Material In                     5
+Sales Order                     5
+
+Sample records (first 3 rows, transposed):
+                                             0                       1                             2
+PO Number                            PO9634122                     NaN                           NaN
+Supplier                Digital Solutions Corp     Trade Import/Export                           NaN
+Ordering Company             Assembly Line Ltd                     NaN                           NaN
+PO Date                             23-04-2025                     NaN                           NaN
+Item                                  Textiles                     NaN                           NaN
+Quantity Required                        815.0                     NaN                           NaN
+Unit Rate                               200.55                     NaN                           NaN
+Total Value                          117945.26                     NaN                           NaN
+Promised Delivery                   22-06-2025                     NaN                           NaN
+Terms                                      COD                     NaN                           NaN
+Currency Code                              INR                     INR                           INR
+Rejection Note No                          NaN          RJN-OUT-799928                           NaN
+Customer                                   NaN  Corporate Services Ltd                           NaN
+Rejection Date                             NaN              25-03-2026                           NaN
+Item Rejected                              NaN            Metal Alloys                           NaN
+Quantity Rejected                          NaN                   498.0                           NaN
+Rejection Reason                           NaN  Specification Mismatch                           NaN
+DN Reference                               NaN               DC7129709                           NaN
+Authorized By                              NaN            Director 817                           NaN
+Vendor Name                                NaN                     NaN           Heavy Machinery Inc
+Company                                    NaN                     NaN        Corporate Services Ltd
+Document Number                            NaN                     NaN                    DBN-417445
+Document Date                              NaN                     NaN                    08-01-2026
+Product                                    NaN                     NaN                  Metal Alloys
+Units Returned                             NaN                     NaN                        -117.0
+Reason for Return                          NaN                     NaN          Manufacturing Defect
+Base Amount                                NaN                     NaN                      37306.95
+Tax Amount                                 NaN                     NaN                       2151.22
+Original Doc Ref                           NaN                     NaN                    PUR-576854
+Units                                      NaN                     NaN                           NaN
+Other Charges                              NaN                     NaN                           NaN
+Transport Cost                             NaN                     NaN                           NaN
+Mode of Payment                            NaN                     NaN                           NaN
+Delivery Ref                               NaN                     NaN                           NaN
+GRN Number                                 NaN                     NaN                           NaN
+Receiving Company                          NaN                     NaN                           NaN
+Receipt Date                               NaN                     NaN                           NaN
+Item Received                              NaN                     NaN                           NaN
+Quantity Received                          NaN                     NaN                           NaN
+Quality Status                             NaN                     NaN                           NaN
+PO Reference                               NaN                     NaN                           NaN
+Storage Location                           NaN                     NaN                           NaN
+Inspected By                               NaN                     NaN                           NaN
+Outward Job Work No                        NaN                     NaN                           NaN
+Contractor                                 NaN                     NaN                           NaN
+Material Description                       NaN                     NaN                           NaN
+Date of Receipt                            NaN                     NaN                           NaN
+Storage                                    NaN                     NaN                           NaN
+Purpose                                    NaN                     NaN                           NaN
+Reference PO                               NaN                     NaN                           NaN
+Original Invoice Ref                       NaN                     NaN                           NaN
+Source Account                             NaN                     NaN                           NaN
+Destination Account                        NaN                     NaN                           NaN
+Contra ID                                  NaN                     NaN                           NaN
+Transaction Date                           NaN                     NaN                           NaN
+Transfer Amount                            NaN                     NaN                           NaN
+Transaction Ref                            NaN                     NaN                           NaN
+Transfer Purpose                           NaN                     NaN                           NaN
+Bank IFSC Code                             NaN                     NaN                           NaN
+Payer Organization                         NaN                     NaN                           NaN
+Payee Organization                         NaN                     NaN                           NaN
+Payment ID                                 NaN                     NaN                           NaN
+Payment Date                               NaN                     NaN                           NaN
+Payment Amount                             NaN                     NaN                           NaN
+Payment Type                               NaN                     NaN                           NaN
+Against Invoice                            NaN                     NaN                           NaN
+Transaction Details                        NaN                     NaN                           NaN
+Reference Number                           NaN                     NaN                           NaN
+Employee Code                              NaN                     NaN                           NaN
+Employee Full Name                         NaN                     NaN                           NaN
+Payroll Period                             NaN                     NaN                           NaN
+Gross Salary                               NaN                     NaN                           NaN
+Dearness Allowance                         NaN                     NaN                           NaN
+Other Benefits                             NaN                     NaN                           NaN
+Professional Tax                           NaN                     NaN                           NaN
+Income Tax Deduction                       NaN                     NaN                           NaN
+Net Payable                                NaN                     NaN                           NaN
+PO Ref                                     NaN                     NaN                           NaN
+Export Invoice No                          NaN                     NaN                           NaN
+Destination Country                        NaN                     NaN                           NaN
+Exporter                                   NaN                     NaN                           NaN
+Buyer Invoice                              NaN                     NaN                           NaN
+Export Item                                NaN                     NaN                           NaN
+Units Exported                             NaN                     NaN                           NaN
+Free on Board Value                        NaN                     NaN                           NaN
+Freight Charges                            NaN                     NaN                           NaN
+Export Incentive                           NaN                     NaN                           NaN
+Payment Currency                           NaN                     NaN                           NaN
+JWOO Ref                                   NaN                     NaN                           NaN
+Processor                                  NaN                     NaN                           NaN
+Principal                                  NaN                     NaN                           NaN
+Order Date                                 NaN                     NaN                           NaN
+Material                                   NaN                     NaN                           NaN
+Quantity                                   NaN                     NaN                           NaN
+Completion Due                             NaN                     NaN                           NaN
+Service Charge                             NaN                     NaN                           NaN
+Agreement Terms                            NaN                     NaN                           NaN
+Delivery Challan No                        NaN                     NaN                           NaN
+Dispatch Date                              NaN                     NaN                           NaN
+Item Dispatched                            NaN                     NaN                           NaN
+Quantity Shipped                           NaN                     NaN                           NaN
+SO Reference                               NaN                     NaN                           NaN
+Delivery Address                           NaN                     NaN                           NaN
+Courier/Transport                          NaN                     NaN                           NaN
+Expected Arrival                           NaN                     NaN                           NaN
+Import Bill No                             NaN                     NaN                           NaN
+Originating Country                        NaN                     NaN                           NaN
+Importer                                   NaN                     NaN                           NaN
+Consignment Invoice                        NaN                     NaN                           NaN
+Import Item                                NaN                     NaN                           NaN
+Units Imported                             NaN                     NaN                           NaN
+Cost Insurance Freight                     NaN                     NaN                           NaN
+Customs Duty                               NaN                     NaN                           NaN
+Import GST                                 NaN                     NaN                           NaN
+Original Currency                          NaN                     NaN                           NaN
+GRN Reference                              NaN                     NaN                           NaN
+Approved By                                NaN                     NaN                           NaN
+Debit Side                                 NaN                     NaN                           NaN
+Credit Side                                NaN                     NaN                           NaN
+Journal ID                                 NaN                     NaN                           NaN
+Entry Date                                 NaN                     NaN                           NaN
+Amount                                     NaN                     NaN                           NaN
+Journal Type                               NaN                     NaN                           NaN
+Supporting Doc                             NaN                     NaN                           NaN
+Narration                                  NaN                     NaN                           NaN
+Expense Claim No                           NaN                     NaN                           NaN
+Claim Date                                 NaN                     NaN                           NaN
+Expense Type                               NaN                     NaN                           NaN
+Amount Claimed                             NaN                     NaN                           NaN
+Vendor/Provider                            NaN                     NaN                           NaN
+Description                                NaN                     NaN                           NaN
+Department                                 NaN                     NaN                           NaN
+Status                                     NaN                     NaN                           NaN
+Stock Adj ID                               NaN                     NaN                           NaN
+Item Name                                  NaN                     NaN                           NaN
+Adjustment Qty                             NaN                     NaN                           NaN
+Storage Facility                           NaN                     NaN                           NaN
+Adjustment Date                            NaN                     NaN                           NaN
+Reason                                     NaN                     NaN                           NaN
+Unit Cost                                  NaN                     NaN                           NaN
+Adjusted By                                NaN                     NaN                           NaN
+Notes                                      NaN                     NaN                           NaN
+Stock Count ID                             NaN                     NaN                           NaN
+Book Quantity                              NaN                     NaN                           NaN
+Counted Quantity                           NaN                     NaN                           NaN
+Discrepancy                                NaN                     NaN                           NaN
+Storage Area                               NaN                     NaN                           NaN
+Count Date                                 NaN                     NaN                           NaN
+Counted By                                 NaN                     NaN                           NaN
+Variance Status                            NaN                     NaN                           NaN
+Receiving Organization                     NaN                     NaN                           NaN
+Paying Organization                        NaN                     NaN                           NaN
+Receipt ID                                 NaN                     NaN                           NaN
+Received Amount                            NaN                     NaN                           NaN
+Payment Method                             NaN                     NaN                           NaN
+Receipt Nature                             NaN                     NaN                           NaN
+Bank Details                               NaN                     NaN                           NaN
+JWIO Ref                                   NaN                     NaN                           NaN
+Processing Rate                            NaN                     NaN                           NaN
+Inward Job Work No                         NaN                     NaN                           NaN
+Subcontractor                              NaN                     NaN                           NaN
+Quantity Sent                              NaN                     NaN                           NaN
+Date of Dispatch                           NaN                     NaN                           NaN
+SO Number                                  NaN                     NaN                           NaN
+Selling Company                            NaN                     NaN                           NaN
+SO Date                                    NaN                     NaN                           NaN
+Quantity Ordered                           NaN                     NaN                           NaN
+Payment Terms                              NaN                     NaN                           NaN
+Voucher Category                Purchase Order           Rejection Out  Purchase Return / Debit Note
+
+======================================================================
+DATASET 2: TALLY ERP9
+======================================================================
+
+Total sheets: 17
+
+------------------------------------------------------------
+Sheet: Company Info
+Shape: 1 rows x 8 columns
+Duplicate rows: 0
+Columns:
+  - Company Name
+  - Books Begin
+  - Financial Year
+  - Base Currency
+  - State
+  - PAN
+  - GSTIN
+  - Address
+
+First 2 rows:
+               Company Name Books Begin             Financial Year Base Currency     State        PAN           GSTIN                                                           Address
+Aarav Foods Private Limited 01-Apr-2017 01-Apr-2017 to 31-Mar-2018           INR Karnataka QAHFT6804A 29CGPOS7442AKZ1 #17, Koramangala Industrial Layout, Bengaluru, Karnataka - 560095
+
+------------------------------------------------------------
+Sheet: Ledgers
+Shape: 87 rows x 8 columns
+Duplicate rows: 0
+Columns:
+  - Ledger Name
+  - Group
+  - GST Registration Type
+  - State
+  - State Code
+  - PAN
+  - GSTIN
+  - Opening Balance
+
+First 2 rows:
+       Ledger Name          Group GST Registration Type State  State Code PAN GSTIN  Opening Balance
+  Sales - Domestic Sales Accounts                   NaN   NaN         NaN NaN   NaN              NaN
+Sales - Interstate Sales Accounts                   NaN   NaN         NaN NaN   NaN              NaN
+
+Columns with most missing values:
+GST Registration Type    17
+State                    17
+State Code               17
+PAN                      17
+GSTIN                    17
+Opening Balance          17
+
+------------------------------------------------------------
+Sheet: Units
+Shape: 3 rows x 2 columns
+Duplicate rows: 0
+Columns:
+  - Unit Name
+  - Formal Name
+
+First 2 rows:
+Unit Name Formal Name
+       kg    Kilogram
+      pcs      Pieces
+
+------------------------------------------------------------
+Sheet: Godowns
+Shape: 2 rows x 2 columns
+Duplicate rows: 0
+Columns:
+  - Godown Name
+  - Parent
+
+First 2 rows:
+ Godown Name  Parent
+Bengaluru WH     NaN
+   Mumbai WH     NaN
+
+Columns with most missing values:
+Parent    2
+
+------------------------------------------------------------
+Sheet: Stock Items
+Shape: 7 rows x 5 columns
+Duplicate rows: 0
+Columns:
+  - Stock Item
+  - Base Unit
+  - Opening Qty
+  - Opening Rate
+  - Godown
+
+First 2 rows:
+        Stock Item Base Unit  Opening Qty  Opening Rate    Godown
+  Atta - 10kg Pack        kg       795.02         75.64 Mumbai WH
+Basmati Rice - 5kg        kg       104.97        248.33 Mumbai WH
+
+------------------------------------------------------------
+Sheet: Cost Centers
+Shape: 3 rows x 2 columns
+Duplicate rows: 0
+Columns:
+  - Cost Category
+  - Cost Center
+
+First 2 rows:
+Cost Category Cost Center
+Sales Channel      Retail
+Sales Channel   Wholesale
+
+------------------------------------------------------------
+Sheet: Sales
+Shape: 360 rows x 21 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Party Ledger
+  - Place of Supply
+  - Intra/Inter
+  - Item
+  - Qty
+  - Unit
+  - Rate
+  - Taxable Value
+  - Tax Type
+  - CGST
+  - SGST
+  - IGST
+  - VAT
+  - CST
+  - Freight
+  - Round Off
+  - Grand Total
+  - Cost Center
+  - Godown
+
+First 2 rows:
+       Date Voucher No                Party Ledger Place of Supply Intra/Inter         Item  ...   CST Freight  Round Off  Grand Total Cost Center    Godown
+01-Apr-2017     S00001 Customer 13 - Uttar Pradesh   Uttar Pradesh       Inter Ghee - 500ml  ... 62.47    7.89        0.5      3194.21      Online Mumbai WH
+03-Apr-2017     S00002   Customer 30 - Maharashtra     Maharashtra       Inter Ghee - 500ml  ... 85.20  265.27       -0.5      4610.06   Wholesale Mumbai WH
+
+------------------------------------------------------------
+Sheet: Purchases
+Shape: 240 rows x 20 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Supplier Ledger
+  - Place of Supply
+  - Intra/Inter
+  - Item
+  - Qty
+  - Unit
+  - Rate
+  - Taxable Value
+  - Tax Type
+  - CGST (Input)
+  - SGST (Input)
+  - IGST (Input)
+  - VAT (Input)
+  - CST (Input)
+  - Freight Inward
+  - Round Off
+  - Invoice Total
+  - Godown
+
+First 2 rows:
+       Date Voucher No         Supplier Ledger Place of Supply Intra/Inter              Item  ...  VAT (Input) CST (Input)  Freight Inward  Round Off Invoice Total       Godown
+01-Apr-2017     P00001 Supplier 27 - Karnataka       Karnataka       Intra Masala Mix - 200g  ...      1776.29        0.00          205.11       -0.5      14231.17    Mumbai WH
+01-Apr-2017     P00002   Supplier 06 - Gujarat         Gujarat       Inter  Ragi Flour - 1kg  ...         0.00      320.39          149.13       -0.5      16488.34 Bengaluru WH
+
+------------------------------------------------------------
+Sheet: Receipts
+Shape: 300 rows x 8 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Party Ledger
+  - Mode
+  - Bank/Cash Ledger
+  - Amount
+  - Ref Type
+  - Instrument No
+
+First 2 rows:
+       Date Voucher No              Party Ledger Mode Bank/Cash Ledger   Amount    Ref Type  Instrument No
+01-Apr-2017     R00001 Customer 33 - Maharashtra RTGS        HDFC Bank 13375.61     New Ref       238976.0
+01-Apr-2017     R00002  Customer 40 - Tamil Nadu RTGS        HDFC Bank 43583.85 Against Ref       877444.0
+
+Columns with most missing values:
+Instrument No    99
+
+------------------------------------------------------------
+Sheet: Payments
+Shape: 300 rows x 8 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Payee Ledger
+  - Mode
+  - Bank/Cash Ledger
+  - Amount
+  - Instrument No
+  - Cost Center
+
+First 2 rows:
+       Date Voucher No                Payee Ledger Mode Bank/Cash Ledger   Amount  Instrument No Cost Center
+03-Apr-2017    PM00001     Supplier 20 - Rajasthan Cash             Cash  3997.29            NaN      Retail
+05-Apr-2017    PM00002 Supplier 04 - Uttar Pradesh IMPS        HDFC Bank 83345.87       365271.0      Online
+
+Columns with most missing values:
+Instrument No    64
+
+------------------------------------------------------------
+Sheet: Journal
+Shape: 120 rows x 7 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Journal Type
+  - Debit Ledger
+  - Credit Ledger
+  - Amount
+  - Narration
+
+First 2 rows:
+       Date Voucher No         Journal Type Debit Ledger   Credit Ledger   Amount                                  Narration
+04-Apr-2017     J00001         Depreciation   Input IGST     CST Payable 15375.41         Depreciation for month-end closing
+04-Apr-2017     J00002 Round Off Adjustment   Input IGST Capital Account 11945.62 Round Off Adjustment for month-end closing
+
+------------------------------------------------------------
+Sheet: Contra
+Shape: 48 rows x 6 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Debit Ledger
+  - Credit Ledger
+  - Amount
+  - Narration
+
+First 2 rows:
+       Date Voucher No Debit Ledger Credit Ledger   Amount          Narration
+14-Apr-2017     C00001    HDFC Bank          Cash 62159.49 Cash-Bank movement
+14-Apr-2017     C00002    HDFC Bank          Cash 58968.63 Cash-Bank movement
+
+------------------------------------------------------------
+Sheet: Credit Notes
+Shape: 60 rows x 5 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Party Ledger
+  - Reason
+  - Amount
+
+First 2 rows:
+       Date Voucher No            Party Ledger       Reason   Amount
+05-Apr-2017    CN00001 Customer 25 - Telangana Sales Return 11611.48
+08-Apr-2017    CN00002 Customer 17 - Telangana       Damage 10156.02
+
+------------------------------------------------------------
+Sheet: Debit Notes
+Shape: 50 rows x 5 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Supplier Ledger
+  - Reason
+  - Amount
+
+First 2 rows:
+       Date Voucher No             Supplier Ledger          Reason  Amount
+03-Apr-2017    DN00001 Supplier 04 - Uttar Pradesh Rate Difference 1450.33
+11-Apr-2017    DN00002    Supplier 21 - Tamil Nadu          Damage 8191.11
+
+------------------------------------------------------------
+Sheet: Stock Journals
+Shape: 60 rows x 10 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Item
+  - Qty
+  - Unit
+  - Standard Cost
+  - Amount
+  - From Godown
+  - To Godown
+  - Narration
+
+First 2 rows:
+       Date Voucher No               Item   Qty Unit  Standard Cost  Amount  From Godown    To Godown             Narration
+04-Apr-2017    ST00001   Ragi Flour - 1kg  5.36   kg         456.89 2448.93    Mumbai WH Bengaluru WH Inter-godown transfer
+08-Apr-2017    ST00002 Basmati Rice - 5kg 43.57   kg         132.24 5761.70 Bengaluru WH    Mumbai WH Inter-godown transfer
+
+------------------------------------------------------------
+Sheet: Bills of Entry
+Shape: 20 rows x 12 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Voucher No
+  - Item
+  - Qty
+  - Unit
+  - CIF Value
+  - BCD (10%)
+  - IGST Base
+  - IGST (18%)
+  - Total Assessable
+  - Port
+  - Bill of Entry No
+
+First 2 rows:
+       Date Voucher No             Item   Qty Unit  CIF Value  BCD (10%)  IGST Base  IGST (18%)  Total Assessable    Port Bill of Entry No
+05-Apr-2017   BOE00001 Atta - 10kg Pack 43.35   kg    9361.58     936.16   10297.74     1853.59          12151.33 Kolkata        BOE834169
+24-Apr-2017   BOE00002 Ragi Flour - 1kg 49.03   kg    6710.10     671.01    7381.11     1328.60           8709.71  Mundra        BOE602472
+
+------------------------------------------------------------
+Sheet: Bank Statement
+Shape: 240 rows x 5 columns
+Duplicate rows: 0
+Columns:
+  - Date
+  - Type
+  - Amount
+  - Description
+  - Running Balance
+
+First 2 rows:
+       Date Type    Amount        Description  Running Balance
+01-Apr-2017   DR 119364.17     IMPS to Vendor        380635.83
+01-Apr-2017   CR  74758.86 NEFT from Customer        455394.69

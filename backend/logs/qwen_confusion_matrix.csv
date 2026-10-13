@@ -1,0 +1,15 @@
+actual,Contra,Delivery Note,Export,Job Work Out,Material Out,Payment,Purchase,Purchase Order,Purchase Return/Debit Note,Receipt Note,Rejection Out,Salary/Payroll,Sales,Sales Return/Credit Note
+Contra,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+Delivery Note,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Export,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Job Work Out,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Material Out,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Payment,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+Purchase,0,0,0,0,0,0,1,0,0,0,0,0,0,0
+Purchase Order,0,0,0,0,0,0,0,2,0,0,0,0,0,0
+Purchase Return/Debit Note,0,0,0,0,0,0,0,0,1,0,0,0,0,0
+Receipt Note,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+Rejection Out,0,0,0,0,0,0,0,0,0,0,2,0,0,0
+Salary/Payroll,0,0,0,0,0,0,0,0,0,0,0,2,0,0
+Sales,0,0,0,0,0,0,0,0,0,0,0,0,2,0
+Sales Return/Credit Note,0,0,0,0,0,0,0,0,0,0,0,0,0,1

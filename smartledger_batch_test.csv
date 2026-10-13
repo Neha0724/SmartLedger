@@ -1,0 +1,4 @@
+
+Transaction Date,Party / Counterparty,Amount / Total,Invoice Number,Payment ID,Payment Type,Payee Organization,Receipt ID,Receipt Nature,Receiving Organization
+2026-10-10,ABC Supplies,2500,INV-PMT-001,PMT-UI-001,Bank Transfer,ABC Supplies,,,
+2026-10-11,ABC Traders,1800,INV-RCP-002,,,,,RCP-UI-002,Customer Payment,ABC Traders

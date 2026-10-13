@@ -1,0 +1,4 @@
+
+Payment ID,Payment Type,Payee Organization,Receipt ID,Receipt Nature,Receiving Organization
+PMT-CSV-001,Bank Transfer,ABC Supplies,,,
+,, ,RCP-CSV-001,Customer Payment,ABC Traders

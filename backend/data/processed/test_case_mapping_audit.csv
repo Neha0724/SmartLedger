@@ -1,0 +1,25 @@
+canonical_label,records
+Purchase Order,5
+Rejection Out,5
+Purchase Return/Debit Note,5
+Sales,5
+Receipt Note,5
+Material Out,5
+Sales Return/Credit Note,5
+Contra,5
+Payment,5
+Salary/Payroll,5
+Purchase,5
+Export,5
+Job Work Out,5
+Delivery Note,5
+Import,5
+Rejection In,5
+Journal,5
+Expense,5
+Stock Journal,5
+Physical Stock,5
+Receipt,5
+Job Work In,5
+Material In,5
+Sales Order,5

@@ -1,0 +1,18 @@
+sheet,rows,decision,reason,label,rows_exported
+Company Info,1,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
+Ledgers,87,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
+Units,3,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
+Godowns,2,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
+Stock Items,7,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
+Cost Centers,3,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
+Sales,360,mapped,Clear transaction sheet mapping,Sales,360.0
+Purchases,240,mapped,Clear transaction sheet mapping,Purchase,240.0
+Receipts,300,mapped,Clear transaction sheet mapping,Receipt,300.0
+Payments,300,mapped,Clear transaction sheet mapping,Payment,300.0
+Journal,120,mapped,Clear transaction sheet mapping,Journal,120.0
+Contra,48,mapped,Clear transaction sheet mapping,Contra,48.0
+Credit Notes,60,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
+Debit Notes,50,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
+Stock Journals,60,mapped,Clear transaction sheet mapping,Stock Journal,60.0
+Bills of Entry,20,mapped,Clear transaction sheet mapping,Import,20.0
+Bank Statement,240,excluded_pending_mapping,Master/reference sheet or category requires manual verification,,
